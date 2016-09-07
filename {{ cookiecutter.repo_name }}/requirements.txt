@@ -15,12 +15,15 @@ spacy
 nltk
 # NN
 Theano
+keras
 # visual
 ggplot
+mpld3
 seaborn
 plotly
 # specialised data analysis
 geopy
 # util
+#gpxpy # GPX file parser
 python-dateutil
 pyyaml
