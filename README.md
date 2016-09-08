@@ -22,8 +22,8 @@ To initialize a new project after your system fulfills the requirements run:
 You are asked to input data such as the project name and other uses of, say, the license. A project with the following file structure is being generated:
 
     ├── LICENSE
-    ├── Makefile           <- Makefile with commands like `make data` or `make train`
-    ├── README.md          <- The top-level README for developers using this project.
+    ├── Makefile           <- Makefile with commands that perform parts of the processing pipeline
+    ├── README.md          <- The top-level README
     ├── data
     │   ├── external       <- Data from third party sources.
     │   ├── interim        <- Intermediate data that has been transformed.
@@ -43,6 +43,8 @@ You are asked to input data such as the project name and other uses of, say, the
     │
     ├── requirements.txt   <- The requirements file for reproducing the analysis environment, e.g.
     │                         generated with `pip freeze > requirements.txt`
+    ├── Dockerfile         <- Dockerfile, alternative approach to manage environment
+    │                         more interesting if using non-Unix
     │
     ├── src                <- Source code for use in this project.
     │   ├── __init__.py    <- Makes src a Python module
@@ -54,11 +56,10 @@ You are asked to input data such as the project name and other uses of, say, the
     │   │   └── build_features.py
     │   │
     │   ├── models         <- Scripts to train models and then use trained models to make
-    │   │   │                 predictions
+    │   │   │                 predictions for submissions
     │   │   ├── predict_model.py
     │   │   └── train_model.py
     │   │
     │   └── visualization  <- Scripts to create exploratory and results oriented visualizations
     │       └── visualize.py
     │
-    └── tox.ini            <- tox file with settings for running tox; see tox.testrun.org
