@@ -12,6 +12,7 @@ Based on the [template by driven-data](https://github.com/drivendata/cookiecutte
 -----------
  - Python 2.7 or 3.5
  - [cookiecutter Python package](http://cookiecutter.readthedocs.org/en/latest/installation.html) >= 1.4.0: `pip install cookiecutter`
+ - Optional: [Docker](https://www.docker.com)
 
 ### Usage:
 ------------
