@@ -20,6 +20,18 @@ To initialize a new project after your system fulfills the requirements run:
 
     cookiecutter https://github.com/uberwach/cookiecutter-kaggle
 
+You can build the Docker image (based on the Kaggle Python3 Docker image) via:
+
+    docker build -t yourproject/tagname .
+
+and then run an interactive shell via
+
+   docker run -i -v $PWD:/tmp/working \
+      -w=/tmp/working -t yourproject/tagname \
+      /bin/bash
+
+on Windows you would use %cd% (current directory) instead of $PWD (print working directory).
+
 You are asked to input data such as the project name and other uses of, say, the license. A project with the following file structure is being generated:
 
     ├── LICENSE
