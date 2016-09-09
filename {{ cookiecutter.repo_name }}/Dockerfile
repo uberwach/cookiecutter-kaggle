@@ -3,4 +3,3 @@ FROM kaggle/python
 # FROM continuumio/anaconda3:latest
 # FROM continuumio/anaconda2:latest
 
-pip -r requirements.txt
