@@ -26,7 +26,7 @@ You can build the Docker image (based on the Kaggle Python3 Docker image) via:
 
 and then run an interactive shell via
 
-   docker run -i -v $PWD:/tmp/working \
+    docker run -i -v $PWD:/tmp/working \
       -w=/tmp/working -t yourproject/tagname \
       /bin/bash
 
