@@ -46,6 +46,7 @@ You are asked to input data such as the project name and other uses of, say, the
     │                         generated with `pip freeze > requirements.txt`
     ├── Dockerfile         <- Dockerfile, alternative approach to manage environment
     │                         more interesting if using non-Unix
+    ├── submissions        <- Directory to keep submissions
     │
     ├── src                <- Source code for use in this project.
     │   ├── __init__.py    <- Makes src a Python module
